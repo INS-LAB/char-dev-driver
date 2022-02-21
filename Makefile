@@ -1,6 +1,6 @@
-obj-m = this_device_name.o
- 
-KDIR := /home/user1/pi/linux
+obj-m = skeleton.o
+
+KDIR := /home/  # 타겟 시스템 커널 경로 작성
 PWD := $(shell pwd)
  
 default:
